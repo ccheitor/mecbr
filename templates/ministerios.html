@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Ministérios · {{ church.short_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero reveal is-visible">
+  <p class="eyebrow">Vida em comunidade</p>
+  <h1>Ministérios que edificam a igreja</h1>
+  <p class="lede">Cada área existe para que pessoas de todas as idades encontrem Jesus, cresçam na Palavra e sirvam com alegria.</p>
+</section>
+
+<section class="ministry-band">
+  <div class="card-grid">
+    {% for item in church.ministries %}
+      <a class="media-card reveal" href="{{ url_for('ministry', slug=item.slug) }}" style="--delay: {{ loop.index0 * 80 }}ms">
+          <img class="media-card-visual" src="{{ url_for('static', filename=item.image) }}" alt="{{ item.title }}">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

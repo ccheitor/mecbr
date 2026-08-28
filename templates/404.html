@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Página não encontrada · {{ church.short_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero">
+  <p class="eyebrow">404</p>
+  <h1>Esta página não existe</h1>
+  <p class="lede">Volte para o início ou fale com a igreja pelo Instagram.</p>
+    <a class="btn-ghost" href="{{ url_for('home') }}">Ir para o início</a>
+</section>
+{% endblock %}

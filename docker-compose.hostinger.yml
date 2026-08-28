@@ -1,0 +1,30 @@
+# Produção no VPS Hostinger — ao lado do Cria Cria (sem portas 80/443)
+#
+# O Caddy do Cria Cria já escuta 80/443. Este stack sobe a app e entra
+# na rede edge para o proxy HTTPS por subdomínio.
+#
+# Uso (em /opt/mecbr):
+#   docker compose -f docker-compose.hostinger.yml --env-file .env up -d --build
+
+services:
+  mecbr:
+    build: .
+    image: mecbr:local
+    container_name: mecbr-web
+    restart: unless-stopped
+    environment:
+      WEB_WORKERS: ${WEB_WORKERS:-2}
+      PORT: "8000"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 25s
+    networks:
+      - edge
+
+networks:
+  edge:
+    external: true
+    name: ${CRIACRIA_EDGE_NETWORK:-criacria_edge}

@@ -1,0 +1,27 @@
+{% if icon == "palavra" %}
+<svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <path d="M10 8h12v32H11a1 1 0 0 1-1-1V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M38 8H26v32h11a1 1 0 0 0 1-1V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M22 8v32" stroke="currentColor" stroke-width="1.8"/>
+  <path d="M14 16h6M14 22h6M30 16h6M30 22h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
+{% elif icon == "unidade" %}
+<svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <circle cx="24" cy="14" r="5" stroke="currentColor" stroke-width="1.8"/>
+  <circle cx="12" cy="20" r="4.5" stroke="currentColor" stroke-width="1.8"/>
+  <circle cx="36" cy="20" r="4.5" stroke="currentColor" stroke-width="1.8"/>
+  <path d="M8 38c0-5.5 4.5-9 8-9h4c3.5 0 8 3.5 8 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M20 38c0-4.5 3-7 7-7h2c4 0 7 2.5 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
+{% elif icon == "visao" %}
+<svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <path d="M24 10c-9 0-16 8-16 14s7 14 16 14 16-8 16-14-7-14-16-14Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+  <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="1.8"/>
+  <path d="M24 6v4M24 38v4M6 24h4M38 24h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
+{% elif icon == "autoridade" %}
+<svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <path d="M24 6 8 14v10c0 9.5 6.8 18.4 16 20 9.2-1.6 16-10.5 16-20V14L24 6Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M24 16v12M20 24h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
+{% endif %}

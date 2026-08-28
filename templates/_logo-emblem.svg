@@ -1,0 +1,6 @@
+<svg class="logo-emblem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" aria-hidden="true">
+  <circle class="logo-ring" cx="256" cy="256" r="220" stroke="currentColor" stroke-width="3"/>
+  <path class="logo-wave logo-wave-1" d="M118 198 C168 172, 212 224, 256 198 C300 172, 344 224, 394 198" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+  <path class="logo-wave logo-wave-2" d="M118 256 C168 230, 212 282, 256 256 C300 230, 344 282, 394 256" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+  <path class="logo-wave logo-wave-3" d="M118 314 C168 288, 212 340, 256 314 C300 288, 344 340, 394 314" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+</svg>

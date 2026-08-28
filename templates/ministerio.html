@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ ministry.title }} · {{ church.short_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero reveal is-visible">
+  <p class="eyebrow">Ministério</p>
+  <h1>{{ ministry.title }}</h1>
+  <p class="lede">{{ ministry.text }}</p>
+</section>
+
+<section class="inner-section reveal">
+  {% if ministry.image %}
+    <img class="home-video" src="{{ url_for('static', filename=ministry.image) }}" alt="{{ ministry.title }}" style="max-height: 420px; object-fit: cover; margin-bottom: 24px;">
+  {% endif %}
+  <p>{{ ministry.body }}</p>
+  <p>
+    Se o Senhor colocar no seu coração servir nesta área, fale com a liderança
+    depois do culto ou envie uma mensagem pelo Instagram da igreja.
+  </p>
+  <div class="hero-actions">
+    <a class="btn" href="{{ church.campuses[0].instagram }}" target="_blank" rel="noopener">Falar no Instagram</a>
+    <a class="btn-ghost" href="{{ url_for('ministries') }}">Todos os ministérios</a>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,168 @@
+{
+  "name": "Ministério Ebenézer Church",
+  "short_name": "Ebenézer Church",
+  "domain": "mecbr.org",
+  "domain_url": "https://mecbr.org",
+  "brand_line_1": "ministério",
+  "brand_line_2": "ebenezer church",
+  "logo": "img/favicon.svg",
+  "state": "RJ",
+  "tagline": "Até aqui nos ajudou o Senhor",
+  "verse": "1 Samuel 7:12",
+  "hero_kicker": "Duas casas · uma família",
+  "mission": "Uma igreja com Jesus no centro, pessoas acolhidas e Palavra que transforma.",
+  "story": "Ebenézer significa “pedra de ajuda”. Celebramos o que Deus já fez e seguimos como família: no culto, na oração, no louvor e no cuidado uns com os outros.",
+  "pillars": {
+    "eyebrow": "Nossa doutrina",
+    "title": "Pilares do ministério",
+    "intro": "Quatro fundamentos que orientam a visão, a fé e a prática do Ministério Ebenézer Church.",
+    "entries": [
+      {
+        "icon": "palavra",
+        "title": "Palavra de Deus",
+        "text": "A Bíblia Sagrada é adotada como a regra infalível de fé e conduta, servindo de alicerce para todos os ensinamentos, pregações e práticas do ministério."
+      },
+      {
+        "icon": "unidade",
+        "title": "Unidade",
+        "text": "O fortalecimento do corpo de Cristo por meio da comunhão, cooperação mútua e vida em comunidade entre os membros."
+      },
+      {
+        "icon": "visao",
+        "title": "Visão",
+        "text": "O direcionamento de levar o evangelho, restaurar e capacitar vidas pelo Espírito Santo, formando discípulos e promovendo o crescimento espiritual."
+      },
+      {
+        "icon": "autoridade",
+        "title": "Autoridade",
+        "text": "O reconhecimento da autoridade espiritual, ordem e liderança sob a soberania divina e o alinhamento com a doutrina cristã."
+      }
+    ]
+  },
+  "welcome_title": "Você não precisa chegar pronto",
+  "welcome_text": "Venha como está. O culto é um encontro com Jesus — com louvor, Palavra e um ambiente para toda a família. Chegue alguns minutos antes e permita-se ser recebido.",
+  "visit_intro": "Temos duas unidades: a sede em Peixe Dourado (Barra de São João) e a casa em Rio das Ostras. Escolha a mais próxima, abra o mapa e venha.",
+  "visit_note": "Horários podem variar em cultos especiais. Confira a programação da semana no Instagram da unidade.",
+  "contact_intro": "Pedido de oração, dúvida sobre os cultos ou primeira visita: fale com a unidade mais perto de você.",
+  "video": "img/miniclipe.mp4",
+  "video_version": "2",
+  "house_video": "img/igreja.mp4",
+  "house_video_poster": "img/igreja-poster.jpg",
+  "house_video_version": "1",
+  "house_section": {
+    "eyebrow": "Nossa casa",
+    "title": "Um pouco da nossa casa",
+    "text": "Momentos reais de uma igreja viva: pessoas acolhidas, famílias abraçadas e a alegria de caminhar juntos na fé.",
+    "quote_lead": "Isso é",
+    "quote_em": "igreja",
+    "tags": ["Culto", "Comunhão", "Família"]
+  },
+  "founded": "2014",
+  "about_card": {
+    "eyebrow": "Nossa história",
+    "title": "Ebenézer Church",
+    "text": "Ebenézer quer dizer “pedra de ajuda”. O nome vem de 1 Samuel 7:12, quando o profeta levanta uma pedra para lembrar que Deus sustentou o povo até ali. Desde 2014, a Ebenézer Church serve Barra de São João e Rio das Ostras. Em pouco tempo a casa ficou pequena para o tanto de gente que Deus trouxe — fruto de um povo fiel, que ora, serve e permanece. O que mais nos alegra é a comunhão: o carinho com quem chega, o cuidado com as famílias e o zelo pela Palavra, para que cada um cresça no conhecimento de Deus."
+  },
+  "pastor": {
+    "name": "Bispo Ronald Medeiros",
+    "role": "Fundador e pastor · Ebenézer Church",
+    "photo": "img/pastor.jpg",
+    "text": "O Bispo Ronald Medeiros é o fundador da Ebenézer Church e pastoreia a sede em Peixe Dourado, acompanhando também a unidade de Rio das Ostras. Seu ministério une o púlpito e a rua: o ensino firme da Palavra caminha junto com o trabalho social que alcança famílias, jovens e quem mais precisa na região. É um pastoreio de porta aberta, feito de visita, oração e presença — perto das pessoas nos dias bons e nos difíceis."
+  },
+  "campuses": [
+    {
+      "id": "sede",
+      "is_hq": true,
+      "label": "Sede",
+      "name": "Peixe Dourado",
+      "city": "Casimiro de Abreu",
+      "district": "Barra de São João",
+      "address": "Rua Atum, 575 — Peixe Dourado II",
+      "address_extra": "Barra de São João · Casimiro de Abreu / RJ",
+      "maps_query": "Ministério Ebenézer Church Rua Atum 575 Peixe Dourado Casimiro de Abreu",
+      "instagram": "https://www.instagram.com/ebenezerchurchoficial/",
+      "instagram_handle": "@ebenezerchurchoficial",
+      "youtube": "https://www.youtube.com/@ebenezerchurch8251",
+      "youtube_handle": "YouTube"
+    },
+    {
+      "id": "rio-das-ostras",
+      "is_hq": false,
+      "label": "Unidade",
+      "name": "Rio das Ostras",
+      "city": "Rio das Ostras",
+      "district": "Rio das Ostras",
+      "address": "Rio das Ostras / RJ",
+      "address_extra": "Confirme o ponto de encontro no Instagram da unidade.",
+      "maps_query": "Ebenézer Church Rio das Ostras RJ",
+      "instagram": "https://www.instagram.com/ebenezerchurchro1/",
+      "instagram_handle": "@ebenezerchurchro1",
+      "youtube": "",
+      "youtube_handle": ""
+    }
+  ],
+  "services": [
+    {
+      "day": "Domingo",
+      "time": "19h",
+      "label": "Culto da Família",
+      "text": "Louvor, Palavra e comunhão para todas as idades."
+    },
+    {
+      "day": "Terça",
+      "time": "19h30",
+      "label": "Culto de Oração",
+      "text": "Um tempo para buscar a Deus e interceder pelas famílias e pela cidade."
+    }
+  ],
+  "amenities": [
+    "Estacionamento no local",
+    "Ministério infantil",
+    "Ambiente para famílias",
+    "Chegue à vontade"
+  ],
+  "visit_steps": [
+    {
+      "title": "Escolha a unidade",
+      "text": "Sede em Peixe Dourado ou casa em Rio das Ostras — use o mapa e venha com tranquilidade."
+    },
+    {
+      "title": "Entre e fique à vontade",
+      "text": "Não existe roupa certa. O que importa é o coração disposto a encontrar Jesus."
+    },
+    {
+      "title": "Permita-se ser acolhido",
+      "text": "Nossa equipe recebe quem chega. Se quiser, fique depois do culto para uma conversa."
+    }
+  ],
+  "ministries": [
+    {
+      "slug": "louvor",
+      "title": "Louvor",
+      "image": "img/louvor.jpg",
+      "text": "Adoração que exalta Jesus e prepara o coração da igreja para a Palavra.",
+      "body": "O ministério de louvor existe para conduzir a congregação à presença de Deus. Ensaiamos com excelência e humildade, para que cada cântico aponte para Cristo."
+    },
+    {
+      "slug": "kids",
+      "title": "Kids",
+      "image": "img/kids.jpg",
+      "text": "Crianças conhecendo Jesus com segurança, brincadeira e ensino bíblico.",
+      "body": "Enquanto a família participa do culto, as crianças aprendem a Palavra de um jeito que faz sentido para a idade delas: com histórias, música e cuidado."
+    },
+    {
+      "slug": "jovens",
+      "title": "Jovens",
+      "image": "img/jovens.jpg",
+      "text": "Uma geração apaixonada por Cristo, com discipulado e amizade verdadeira.",
+      "body": "Jovens da sede e de Rio das Ostras encontram aqui amizade, Palavra e propósito — para crescer na fé, servir e caminhar juntos."
+    },
+    {
+      "slug": "celulas",
+      "title": "Células",
+      "image": "img/celulas.jpg",
+      "text": "Casas abertas para comunhão, oração e crescimento durante a semana.",
+      "body": "A igreja também acontece no meio da semana. Nas células, compartilhamos a vida, oramos uns pelos outros e estudamos a Bíblia em grupos menores."
+    }
+  ]
+}

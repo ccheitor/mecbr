@@ -1,0 +1,834 @@
+{
+  "families": [
+    "hillsong-icons",
+    "hillsongv2",
+    "SFMono-Regular"
+  ],
+  "scale": {
+    "heading-1": {
+      "fontFamily": "hillsong-icons",
+      "fontSize": "100px",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "heading-2": {
+      "fontFamily": "hillsong-icons",
+      "fontSize": "75px",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "heading-3": {
+      "fontFamily": "hillsong-icons",
+      "fontSize": "65px",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "body": {
+      "fontFamily": "hillsongv2",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "caption": {
+      "fontFamily": "hillsongv2",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "code": {
+      "fontFamily": "SFMono-Regular",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    }
+  },
+  "fontFaces": [
+    {
+      "family": "hillsongv2",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsongv2/hillsongv2.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "hillsongv2",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsongv2/hillsongv2.eot#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "hillsongv2",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsongv2/hillsongv2.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "hillsongv2",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsongv2/hillsongv2.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "hillsongv2",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsongv2/hillsongv2.svg?#hillsongv2",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "hillsong-icons",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsong-icons/hillsong-icons.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "hillsong-icons",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsong-icons/hillsong-icons.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "hillsong-icons",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsong-icons/hillsong-icons.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "hillsong-icons",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsong-icons/hillsong-icons.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "hillsong-icons",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/hillsong-icons/hillsong-icons.svg#hillsong-icons",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/846224/00000000000000007735e602/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/846224/00000000000000007735e602/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3",
+      "format": "woff",
+      "weight": "900"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/846224/00000000000000007735e602/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3",
+      "format": "opentype",
+      "weight": "900"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/a7a503/00000000000000007758cf7c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3",
+      "format": "woff2",
+      "weight": "900"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/a7a503/00000000000000007758cf7c/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3",
+      "format": "woff",
+      "weight": "900"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/a7a503/00000000000000007758cf7c/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3",
+      "format": "opentype",
+      "weight": "900"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/5be242/00000000000000007735e603/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/5be242/00000000000000007735e603/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "format": "woff",
+      "weight": "700"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/5be242/00000000000000007735e603/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "format": "opentype",
+      "weight": "700"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/38ea3a/00000000000000007758cf7d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+      "format": "woff2",
+      "weight": "700"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/38ea3a/00000000000000007758cf7d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+      "format": "woff",
+      "weight": "700"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/38ea3a/00000000000000007758cf7d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+      "format": "opentype",
+      "weight": "700"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/99d25e/00000000000000007735e611/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3",
+      "format": "woff2",
+      "weight": "800"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/99d25e/00000000000000007735e611/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3",
+      "format": "woff",
+      "weight": "800"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/99d25e/00000000000000007735e611/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3",
+      "format": "opentype",
+      "weight": "800"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/57ba91/00000000000000007758cf8c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3",
+      "format": "woff2",
+      "weight": "800"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/57ba91/00000000000000007758cf8c/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3",
+      "format": "woff",
+      "weight": "800"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/57ba91/00000000000000007758cf8c/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3",
+      "format": "opentype",
+      "weight": "800"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/4b22bb/00000000000000007735e601/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/4b22bb/00000000000000007735e601/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3",
+      "format": "woff",
+      "weight": "100"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/4b22bb/00000000000000007735e601/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3",
+      "format": "opentype",
+      "weight": "100"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/da27c4/00000000000000007758cf8d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/da27c4/00000000000000007758cf8d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3",
+      "format": "woff",
+      "weight": "100"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/da27c4/00000000000000007758cf8d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3",
+      "format": "opentype",
+      "weight": "100"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/e37e5a/00000000000000007735e60d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/e37e5a/00000000000000007735e60d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3",
+      "format": "woff",
+      "weight": "600"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/e37e5a/00000000000000007735e60d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3",
+      "format": "opentype",
+      "weight": "600"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/0bd0af/00000000000000007758cf8e/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3",
+      "format": "woff2",
+      "weight": "600"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/0bd0af/00000000000000007758cf8e/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3",
+      "format": "woff",
+      "weight": "600"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/0bd0af/00000000000000007758cf8e/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3",
+      "format": "opentype",
+      "weight": "600"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/d7ff92/00000000000000007735e609/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/d7ff92/00000000000000007735e609/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/d7ff92/00000000000000007735e609/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+      "format": "opentype",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/6eb0e3/00000000000000007758cf8f/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/6eb0e3/00000000000000007758cf8f/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/6eb0e3/00000000000000007758cf8f/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+      "format": "opentype",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/3888dc/00000000000000007735e606/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+      "format": "woff2",
+      "weight": "300"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/3888dc/00000000000000007735e606/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+      "format": "woff",
+      "weight": "300"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/3888dc/00000000000000007735e606/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+      "format": "opentype",
+      "weight": "300"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/0b8052/00000000000000007758cf90/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3",
+      "format": "woff2",
+      "weight": "300"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/0b8052/00000000000000007758cf90/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3",
+      "format": "woff",
+      "weight": "300"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/0b8052/00000000000000007758cf90/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3",
+      "format": "opentype",
+      "weight": "300"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/26f7ec/00000000000000007735e605/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+      "format": "woff2",
+      "weight": "500"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/26f7ec/00000000000000007735e605/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+      "format": "woff",
+      "weight": "500"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/26f7ec/00000000000000007735e605/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+      "format": "opentype",
+      "weight": "500"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/c7cac4/00000000000000007735e60e/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3",
+      "format": "woff2",
+      "weight": "500"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/c7cac4/00000000000000007735e60e/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3",
+      "format": "woff",
+      "weight": "500"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "https://use.typekit.net/af/c7cac4/00000000000000007735e60e/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3",
+      "format": "opentype",
+      "weight": "500"
+    },
+    {
+      "family": "Inter",
+      "src": "https://hillsong.com/app/themes/hillsong/webfonts/Inter-VariableFont_slnt/,wght.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "georgia",
+      "src": "https://hillsong.com/app/themes/hillsong/webfonts/georgia.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://hillsong.com/app/themes/hillsong/webfonts/Inter.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "Inter",
+      "src": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+      "format": "truetype",
+      "weight": "500"
+    },
+    {
+      "family": "Inter",
+      "src": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+      "format": "truetype",
+      "weight": "600"
+    },
+    {
+      "family": "Inter",
+      "src": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+      "format": "truetype",
+      "weight": "700"
+    },
+    {
+      "family": "Inter",
+      "src": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf",
+      "format": "truetype",
+      "weight": "800"
+    },
+    {
+      "family": "Inter",
+      "src": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf",
+      "format": "truetype",
+      "weight": "900"
+    },
+    {
+      "family": "AvenirLTPro-Light",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_0_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Light",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_0_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Light",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_0_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Light",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_0_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Light",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_0_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-LightOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_1_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-LightOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_1_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-LightOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_1_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-LightOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_1_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-LightOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_1_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Book",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_2_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Book",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_2_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Book",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_2_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Book",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_2_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Book",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_2_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BookOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_3_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BookOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_3_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BookOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_3_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BookOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_3_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BookOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_3_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Roman",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_4_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Roman",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_4_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Roman",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_4_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Roman",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_4_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Roman",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_4_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Oblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_5_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Oblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_5_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Oblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_5_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Oblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_5_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Oblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_5_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Medium",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_6_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Medium",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_6_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Medium",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_6_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Medium",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_6_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Medium",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_6_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-MediumOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_7_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-MediumOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_7_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-MediumOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_7_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-MediumOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_7_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-MediumOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_7_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Heavy",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_8_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Heavy",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_8_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Heavy",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_8_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Heavy",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_8_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Heavy",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_8_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-HeavyOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_9_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-HeavyOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_9_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-HeavyOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_9_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-HeavyOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_9_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-HeavyOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_9_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Black",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_A_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Black",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_A_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Black",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_A_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Black",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_A_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-Black",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_A_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BlackOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_B_0.eot",
+      "format": "embedded-opentype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BlackOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_B_0.eot?#iefix",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BlackOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_B_0.woff2",
+      "format": "woff2",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BlackOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_B_0.woff",
+      "format": "woff",
+      "weight": "400"
+    },
+    {
+      "family": "AvenirLTPro-BlackOblique",
+      "src": "https://d9nqqwcssctr8.cloudfront.net/fonts/avenir/3A1E59_B_0.ttf",
+      "format": "truetype",
+      "weight": "400"
+    },
+    {
+      "family": "inter",
+      "src": "https://hillsong.com/_next/static/immutable/media/InterVariable-s.p.2v4uvb3i5caxn.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "inter",
+      "src": "https://hillsong.com/_next/static/immutable/media/InterVariable_Italic-s.p.44o28jqvv04m6.woff2",
+      "format": "woff2",
+      "weight": "100"
+    }
+  ],
+  "rules": {
+    "maxSizesPerScreen": 4,
+    "headingWeightRange": "600-700",
+    "bodyWeight": 400,
+    "lineHeightBody": 1.5,
+    "lineHeightHeading": 1.2
+  }
+}

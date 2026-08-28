@@ -1,0 +1,5 @@
+# Ministério Ebenézer Church — bloco para o Caddy do Cria Cria
+{$MECBR_DOMAIN:mecbr.criacria.com.br} {
+	encode gzip
+	reverse_proxy mecbr-web:8000
+}

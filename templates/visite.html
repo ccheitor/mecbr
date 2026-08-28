@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}Visite · {{ church.short_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero reveal is-visible">
+  <p class="eyebrow">Venha nos conhecer</p>
+  <h1>Duas unidades · uma igreja</h1>
+  <p class="lede">{{ church.visit_intro }}</p>
+</section>
+
+<section class="campus-maps">
+  {% for campus in church.campuses %}
+    <article class="campus-block reveal">
+      <p class="eyebrow">{% if campus.is_hq %}Sede{% else %}Unidade{% endif %}</p>
+      <h2>{{ campus.name }}</h2>
+      <p>{{ campus.address }}<br>{{ campus.address_extra }}</p>
+      <p>
+        <a href="{{ campus.instagram }}" target="_blank" rel="noopener">{{ campus.instagram_handle }}</a>
+        {% if campus.youtube %}
+          · <a href="{{ campus.youtube }}" target="_blank" rel="noopener">YouTube</a>
+        {% endif %}
+      </p>
+      <div class="map-frame">
+        <iframe
+          title="Mapa {{ campus.name }}"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q={{ campus.maps_query | urlencode }}&hl=pt-BR&z=16&output=embed">
+        </iframe>
+      </div>
+      <a class="btn-ghost" href="https://www.google.com/maps/search/?api=1&query={{ campus.maps_query | urlencode }}" target="_blank" rel="noopener">Como chegar</a>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="band-muted">
+  <div class="ministry-band">
+    <div class="ministry-head reveal">
+      <p class="section-kicker">Como é chegar</p>
+      <h2>Três passos simples</h2>
+    </div>
+    <div class="card-grid three">
+      {% for step in church.visit_steps %}
+        <article class="campus-card reveal" style="--delay: {{ loop.index0 * 70 }}ms">
+          <p class="eyebrow">0{{ loop.index }}</p>
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.text }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="inner-section">
+  <div class="reveal">
+    <p class="section-kicker">Horários</p>
+    <h2>Cultos da semana</h2>
+  </div>
+  <div class="card-grid two">
+    {% for service in church.services %}
+      <article class="campus-card reveal">
+        <p class="eyebrow">{{ service.day }}</p>
+        <h3>{{ service.time }}</h3>
+        <p>{{ service.label }}</p>
+        <p class="fine-print">{{ service.text }}</p>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="fine-print reveal">{{ church.visit_note }}</p>
+</section>
+{% endblock %}

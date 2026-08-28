@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Contato · {{ church.short_name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero reveal is-visible">
+  <p class="eyebrow">Estamos perto</p>
+  <h1>Fale com a casa</h1>
+  <p class="lede">{{ church.contact_intro }}</p>
+</section>
+
+<section class="campus-maps">
+  {% for campus in church.campuses %}
+    <article class="campus-block reveal">
+      <p class="eyebrow">{% if campus.is_hq %}Sede{% else %}Unidade{% endif %}</p>
+      <h2>{{ campus.name }}</h2>
+      <p>{{ campus.address }}<br>{{ campus.address_extra }}</p>
+      <p><a href="{{ campus.instagram }}" target="_blank" rel="noopener">{{ campus.instagram_handle }}</a></p>
+      {% if campus.youtube %}
+        <p><a href="{{ campus.youtube }}" target="_blank" rel="noopener">YouTube · {{ campus.youtube_handle }}</a></p>
+      {% endif %}
+      <div class="map-frame">
+        <iframe
+          title="Mapa {{ campus.name }}"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q={{ campus.maps_query | urlencode }}&hl=pt-BR&z=16&output=embed">
+        </iframe>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="inner-section">
+  <p class="eyebrow">Quando nos reunimos</p>
+  {% for service in church.services %}
+    <p><strong>{{ service.day }}</strong> · {{ service.time }} · {{ service.label }}</p>
+  {% endfor %}
+  <a class="btn-ghost" href="{{ url_for('visit') }}">Planejar visita</a>
+</section>
+{% endblock %}

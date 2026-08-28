@@ -1,0 +1,100 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "core": {
+    "text-primary": {
+      "value": "#ffffff",
+      "role": "text-primary",
+      "name": "wp--preset--color--white"
+    },
+    "text-muted": {
+      "value": "#464646",
+      "role": "text-muted"
+    },
+    "background": {
+      "value": "#000000",
+      "role": "background",
+      "name": "wp--preset--color--black"
+    },
+    "surface": {
+      "value": "#0d112f",
+      "role": "surface",
+      "name": "color-gray-900"
+    },
+    "border": {
+      "value": "#585858",
+      "role": "border"
+    }
+  },
+  "status": {
+    "warning": {
+      "value": "#aa9055",
+      "role": "warning"
+    },
+    "success": {
+      "value": "#1bc48d",
+      "role": "success"
+    }
+  },
+  "extended": {
+    "color-gray-700": {
+      "value": "#393b59",
+      "role": "unknown",
+      "name": "color-gray-700"
+    },
+    "color-898989": {
+      "value": "#898989",
+      "role": "unknown"
+    },
+    "color-666666": {
+      "value": "#666666",
+      "role": "unknown"
+    },
+    "color-red-50": {
+      "value": "#f2f2f2",
+      "role": "unknown",
+      "name": "color-red-50"
+    },
+    "color-c3aa92": {
+      "value": "#c3aa92",
+      "role": "unknown"
+    },
+    "color-289fd8": {
+      "value": "#289fd8",
+      "role": "info"
+    },
+    "wp-editor-canvas-background": {
+      "value": "#d7d7d7",
+      "role": "unknown",
+      "name": "wp-editor-canvas-background"
+    },
+    "color-111111": {
+      "value": "#111111",
+      "role": "unknown"
+    },
+    "color-3c3c3c": {
+      "value": "#3c3c3c",
+      "role": "unknown"
+    },
+    "color-3860be": {
+      "value": "#3860be",
+      "role": "unknown"
+    },
+    "color-cccccc": {
+      "value": "#cccccc",
+      "role": "unknown"
+    },
+    "color-333333": {
+      "value": "#333333",
+      "role": "unknown"
+    },
+    "color-neutral-800": {
+      "value": "#1f1f1f",
+      "role": "unknown",
+      "name": "color-neutral-800"
+    }
+  },
+  "meta": {
+    "theme": "dark",
+    "extracted": "2026-08-23"
+  }
+}

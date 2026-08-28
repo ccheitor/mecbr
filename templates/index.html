@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block title %}{{ church.name }} · Bem-vindo a casa{% endblock %}
+
+{% block content %}
+<section class="hero hero--brand">
+  <div class="hero-media">
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="{{ url_for('static', filename='img/fachada.jpg') }}">
+      <source src="{{ url_for('static', filename=church.video) }}?v={{ church.video_version }}" type="video/mp4">
+    </video>
+    <div class="hero-overlay" aria-hidden="true"></div>
+  </div>
+  <div class="hero-copy reveal is-visible">
+    {% include "_logo-full.html" %}
+  </div>
+</section>
+
+<section class="spotlight spotlight--single">
+  <article class="spotlight-card reveal is-visible">
+    <img src="{{ url_for('static', filename='img/fachada.jpg') }}" alt="Ministério Ebenézer Church — sede em Peixe Dourado">
+    <p class="eyebrow">{{ church.about_card.eyebrow }}</p>
+    <h2>{{ church.about_card.title }}</h2>
+    <p>{{ church.about_card.text }}</p>
+  </article>
+</section>
+
+<section class="pastor-band reveal">
+  <div class="pastor-photo">
+    <img src="{{ url_for('static', filename=church.pastor.photo) }}" alt="{{ church.pastor.name }}">
+  </div>
+  <div>
+    <p class="eyebrow">{{ church.pastor.role }}</p>
+    <h2>{{ church.pastor.name }}</h2>
+    <p>{{ church.pastor.text }}</p>
+  </div>
+</section>
+
+<section class="house-video-band reveal">
+  <div class="house-video-inner">
+    <div class="house-video-copy">
+      <p class="section-kicker">{{ church.house_section.eyebrow }}</p>
+      <h2>{{ church.house_section.title }}</h2>
+      <p class="house-video-lede">{{ church.house_section.text }}</p>
+      <p class="house-video-quote">{{ church.house_section.quote_lead }} <em>{{ church.house_section.quote_em }}</em></p>
+      <div class="house-video-tags">
+        {% for tag in church.house_section.tags %}
+          <span class="pill">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="house-video-media">
+      <div class="house-video-frame">
+        <video class="home-video" controls playsinline preload="metadata" poster="{{ url_for('static', filename=church.house_video_poster) }}">
+          <source src="{{ url_for('static', filename=church.house_video) }}?v={{ church.house_video_version }}" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="manifesto reveal">
+  <h2>{{ church.mission }}</h2>
+  <p>{{ church.story }}</p>
+</section>
+
+<section class="pillars-band reveal">
+  <div class="pillars-inner">
+    <div class="pillars-head">
+      <p class="section-kicker">{{ church.pillars.eyebrow }}</p>
+      <h2>{{ church.pillars.title }}</h2>
+      <p class="pillars-intro">{{ church.pillars.intro }}</p>
+    </div>
+    <div class="pillars-grid">
+      {% for item in church.pillars.entries %}
+        <article class="pillar-card reveal" style="--delay: {{ loop.index0 * 80 }}ms">
+          <div class="pillar-top">
+            <div class="pillar-icon" aria-hidden="true">
+              {% with icon=item.icon %}{% include "_pillar-icon.html" %}{% endwith %}
+            </div>
+            <span class="pillar-index">{{ "%02d"|format(loop.index) }}</span>
+          </div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.text }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="locator reveal" id="unidades">
+  <p class="eyebrow">Unidades</p>
+  <h2>Encontre a casa mais perto de você</h2>
+</section>
+
+<section class="campus-maps">
+  {% for campus in church.campuses %}
+    <article class="campus-block reveal" id="{{ campus.id }}">
+      <p class="eyebrow">{% if campus.is_hq %}Sede{% else %}Unidade{% endif %}</p>
+      <h2>{{ campus.name }}</h2>
+      <p>{{ campus.address }}<br>{{ campus.address_extra }}</p>
+      <p>
+        <a href="{{ campus.instagram }}" target="_blank" rel="noopener">{{ campus.instagram_handle }}</a>
+        {% if campus.youtube %}
+          · <a href="{{ campus.youtube }}" target="_blank" rel="noopener">{{ campus.youtube_handle }}</a>
+        {% endif %}
+      </p>
+      <div class="map-frame">
+        <iframe
+          title="Mapa {{ campus.name }}"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q={{ campus.maps_query | urlencode }}&hl=pt-BR&z=16&output=embed">
+        </iframe>
+      </div>
+      <a class="btn-ghost" href="https://www.google.com/maps/search/?api=1&query={{ campus.maps_query | urlencode }}" target="_blank" rel="noopener">Abrir no Google Maps</a>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="band-muted">
+  <div class="ministry-band">
+    <div class="ministry-head reveal">
+      <p class="section-kicker">Ministérios</p>
+      <h2>Um lugar para cada geração</h2>
+    </div>
+    <div class="card-grid">
+      {% for item in church.ministries %}
+        <a class="media-card reveal" href="{{ url_for('ministry', slug=item.slug) }}" style="--delay: {{ loop.index0 * 70 }}ms">
+          <img class="media-card-visual" src="{{ url_for('static', filename=item.image) }}" alt="{{ item.title }}">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.text }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="dark-band">
+  <div class="reveal">
+    <p class="eyebrow">Primeira vez?</p>
+    <h2>{{ church.welcome_title }}</h2>
+    <p>{{ church.welcome_text }}</p>
+    <a class="btn-light" href="{{ url_for('visit') }}">Planeje sua visita</a>
+  </div>
+</section>
+{% endblock %}
